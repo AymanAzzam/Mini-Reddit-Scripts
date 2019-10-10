@@ -8,4 +8,4 @@
 
 4- Scripts for end to end testing and deployment.
 
-5- Scripts for Checking the status of server machine.
+5- Scripts for checking the status of server machine.
