@@ -1,10 +1,10 @@
 #install Apache
 cd
 sudo apt-get update && sudo apt-get install apache2 -y
-echo | sudo apt-add-repository ppa:ondrej/apache2
+sudo apt-add-repository ppa:ondrej/apache2 -y
 
 #install the composer
-echo y | sudo apt-get install composer 
+sudo apt-get install composer -y
 
 #install MySQL
 sudo apt-get install mysql-server
@@ -12,9 +12,9 @@ sudo apt-get install mysql-client
 
 #install php
 sudo apt install php7.2 
-echo yes | sudo apt-get install libapache2-mod-php php-mbstring php-bcmath php-xml
+sudo apt-get install libapache2-mod-php php-mbstring php-bcmath php-xml -y
 echo | sudo apt-add-repository ppa:ondrej/php
-echo yes | sudo apt-get install php7.2-pdo php7.2-mysql php7.2-gd
+sudo apt-get install php7.2-pdo php7.2-mysql php7.2-gd -y
 #sudo apt-get install php-{xml,mbstring,bcmath,bz2,intl,gd,mbstring,mysql,zip,fpm} -y
 
 #install xampp
