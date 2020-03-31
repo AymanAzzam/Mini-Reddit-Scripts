@@ -5,7 +5,7 @@ git config --global user.name ayman
 git config --global user.email ayman.mohammed98@eng-st.cu.edu.eg
 
 #install npm
-echo y | sudo apt-get install npm
+sudo apt-get install npm -y
 sudo npm install npm-install-all -g
 
 #install nodejs
@@ -14,7 +14,7 @@ sudo apt-get install -y nodejs
 sudo npm install -g @angular/cli
 
 #install ng
-echo y | sudo apt-get install ng-common
+sudo apt-get install ng-common -y
 sudo npm install -g @angular/cli && sudo ng add @angular/material
 sudo npm install ngx-bootstrap --save
 sudo npm install jquery --save && sudo npm install --save @types/jquery
